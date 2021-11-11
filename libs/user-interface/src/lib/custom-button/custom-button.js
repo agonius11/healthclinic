@@ -1,12 +1,22 @@
 import './custom-button.module.css';
-export function CustomButton({title, color, id}) {
+import { Button } from 'antd';
+
+
+export function CustomButton({title,buttonProps, customStyles = {}}) {
+
+
+
   return (
     <div>
       {
-        <title />
+        <Button {...buttonProps} style={{...customStyles}}>
+          
+          {title}
+
+        </Button>
       }
-      {color}
-      <h1>Welcome to CustomButton!</h1>
+      
+      
     </div>
   );
 }
