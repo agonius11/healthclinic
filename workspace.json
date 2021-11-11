@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "projects": {
+    "nxapp": "apps/nxapp",
+    "nxapp-e2e": "apps/nxapp-e2e",
+    "user-interface": "libs/user-interface"
+  }
+}
