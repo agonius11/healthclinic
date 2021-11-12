@@ -3,6 +3,7 @@
   "projects": {
     "nxapp": "apps/nxapp",
     "nxapp-e2e": "apps/nxapp-e2e",
-    "user-interface": "libs/user-interface"
+    "user-interface": "libs/user-interface",
+    "user-interface-e2e": "apps/user-interface-e2e"
   }
 }
